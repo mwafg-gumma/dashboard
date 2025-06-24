@@ -13,8 +13,8 @@ import SingUp from "./components/SingUp"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
-    <Route index element={<HomePage />} />
+    <Route index element={<Layout />}>
+    <Route path="/" element={<HomePage />} />
     <Route path="/table" element={<TablePage />} />
     <Route path="/bill" element={<BillingPage />} />
     <Route path="/profile" element={<ProfilePage />} />
