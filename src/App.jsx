@@ -23,7 +23,7 @@ const router = createBrowserRouter(
     </Route>
 ),
 {
-  basename:"//Dashboard-React-Dev"
+  basename:"/statistics-dev"
 }
 )
 
