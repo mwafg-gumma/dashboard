@@ -21,7 +21,10 @@ const router = createBrowserRouter(
     <Route path="/SigIn" element={<Sigin />} />
     <Route path="/SigUp" element={<SingUp />} />
     </Route>
-)
+),
+{
+  basename:"/React-Dashboard"
+}
 )
 
 const App = () => {
