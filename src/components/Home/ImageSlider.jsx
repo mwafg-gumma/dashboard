@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 
 import two from "../../assets/image/two.jpg"
 import one from "../../assets/image/one.jpg"
-// import slide3 from "../../assets/image/slide3.jpg"
 
 const slides = [
 {

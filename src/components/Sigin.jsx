@@ -1,7 +1,7 @@
-import Back from '../assets/image/Back.jpg'
+import Back from '../assets/image/Back.png'
 import {FaUser,FaRoute} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
-import Background from "../assets/image/Background.jpg"
+
 
 const Sigin = () => {
 return (

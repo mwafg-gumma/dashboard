@@ -1,15 +1,15 @@
-import user6 from "../../assets/image/user6.jpg"
+import user6 from "../../assets/image/user6.png"
 import { useNavigate } from "react-router-dom"
 import {FaHome ,FaSearch,FaBell,FaUser,FaBars ,FaCube,FaEnvelope,FaTimesCircle,FaCheckCircle, FaPen,FaFacebook,FaTwitter,FaInstagram} from 'react-icons/fa'
 import { FaGear } from "react-icons/fa6"
-import user7 from '../../assets/image/user7.jpg'
-import user8 from '../../assets/image/user8.jpg'
-import user2 from '../../assets/image/user2.jpg'
-import user5 from '../../assets/image/user5.jpg'
-import user3 from '../../assets/image/user3.jpg'
-import project2 from "../../assets/image/project2.jpg"
-import project3 from "../../assets/image/project3.jpg"
-import project4 from "../../assets/image/project4.jpg"
+import user7 from '../../assets/image/user7.png'
+import user8 from '../../assets/image/user8.png'
+import user2 from '../../assets/image/user2.png'
+import user5 from '../../assets/image/user5.png'
+import user3 from '../../assets/image/user3.png'
+import project2 from "../../assets/image/project2.png"
+import project3 from "../../assets/image/project3.png"
+import project4 from "../../assets/image/project4.png"
 
 const Profile = ({onMenuClick}) => {
     const navigate = useNavigate()

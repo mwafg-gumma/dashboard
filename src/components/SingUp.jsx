@@ -1,4 +1,4 @@
-import Background from "../assets/image/BACKGROUND.JPG"
+import Background from "../assets/image/Background.png"
 import { NavLink } from "react-router-dom"
 import { FaUser, FaTachometerAlt,FaFacebook,FaInstagram,FaTwitter,FaLinkedin,FaGithub } from "react-icons/fa"
 

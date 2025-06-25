@@ -1,12 +1,12 @@
 import { FaHome,FaSearch,FaUser,FaBell,FaBars } from "react-icons/fa"
 import Footer from "../Footer"
 import { useNavigate } from "react-router-dom"
-import user1 from "../../assets/image/user1.jpg"
-import user2 from "../../assets/image/user2.jpg"
-import user3 from "../../assets/image/user3.jpg"
-import user4 from "../../assets/image/user4.jpg"
-import user5 from "../../assets/image/user5.jpg"
-import user6 from "../../assets/image/user6.jpg"
+import user1 from "../../assets/image/user1.png"
+import user2 from "../../assets/image/user2.png"
+import user3 from "../../assets/image/user3.png"
+import user4 from "../../assets/image/user4.png"
+import user5 from "../../assets/image/user5.png"
+import user6 from "../../assets/image/user6.png"
 
 const Table = ({onMenuClick}) => {
     const navigate = useNavigate()
