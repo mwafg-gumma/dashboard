@@ -21,10 +21,7 @@ const router = createBrowserRouter(
     <Route path="/SigIn" element={<Sigin />} />
     <Route path="/SigUp" element={<SingUp />} />
     </Route>
-),
-{
-  basename:"/statistics-dev"
-}
+)
 )
 
 const App = () => {
