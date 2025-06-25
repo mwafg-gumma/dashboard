@@ -15,7 +15,7 @@ import SingUp from "./components/SingUp"
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/*" element={<HomePage />} />
+      <Route index element={<HomePage />} />
       <Route path="/table" element={<TablePage />} />
       <Route path="/bill" element={<BillingPage />} />
       <Route path="/profile" element={<ProfilePage />} />
