@@ -1,12 +1,12 @@
-import { Outlet } from "react-router-dom"
-import SideDashboard from "../SideDashboard"
-const Layout = () => {
-    return (
-    <>
-    {/* <SideDashboard /> */}
-    <Outlet />
-    </>
-)
-}
+// import { Outlet } from "react-router-dom"
+// // import SideDashboard from "../SideDashboard"
+// const Layout = () => {
+//     return (
+//     <>
+//     {/* <SideDashboard /> */}
+//     <Outlet />
+//     </>
+// )
+// }
 
-export default Layout
+// export default Layout
