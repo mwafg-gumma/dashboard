@@ -132,7 +132,7 @@ return (
                             </div>
                             {/* for last card */}
                             <div className="bg-white shadow-md rounded-md mx-3 my-4 md:w-[600px] md:-mt-20 md:ml-5">
-                                <div className="flex flex row items-center justify-between p-3">
+                                <div className="flex flex-row items-center justify-between p-3">
                                     <h3 className="text-lg font-normal text-gray-600">Payment Method</h3>
                                     <button className="text-white bg-black rounded-md p-3"> + Add New Card</button>
                                 </div>
