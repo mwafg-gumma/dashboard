@@ -63,17 +63,17 @@ return (
         {/*  */}
             </div>
             {/* help side */}
-            <div className="my-1">
+            <div className="my-1 text-center">
                 <img src={Document} alt="Document" className="w-[150px] object-cover mx-10" />
-                <div className="mx-16">
-                    <h3 className="py-2 px-3 text-xl text-sky-500">Need help ?</h3>
-                    <p className="text-sm">Please Check Our Docs</p>
+                <div className="mx-1">
+                    <h3 className="py-2 px-3 text-lg text-sky-500">Need help ?</h3>
+                    <p className="text-sm mx-5">Please Check Our Docs</p>
                 </div>
                 <button className="bg-sky-800 rounded-md text-white text-lg py-1 px-10 mt-3 mx-8 hover:duration-300 ease-in ">
                         Documentation
                     </button>
-                <button className="bg-sky-400 rounded-md text-white text-lg py-1 px-10 mt-3 mx-8 ">
-                        Upgrade to PRO
+                <button className="bg-sky-400 rounded-md text-white px-10 text-lg py-1 mt-3 mx-10 ">
+                        Get to PRO
                     </button>
             </div>
         </div>

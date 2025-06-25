@@ -3,7 +3,7 @@ import {FaUser,FaRoute} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 
 
-const Sigin = () => {
+const Form = () => {
 return (
     <>
     <section className="mt-5">
@@ -91,4 +91,4 @@ return (
 )
 }
 
-export default Sigin
+export default Form

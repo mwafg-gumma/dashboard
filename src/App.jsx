@@ -1,5 +1,4 @@
 
-
 import {
   Route,
   createBrowserRouter,
@@ -10,19 +9,18 @@ import TablePage from "./components/Links/TablePage"
 import HomePage from "./components/Home/HomePage"
 import BillingPage from "./components/Links/BillingPage"
 import ProfilePage from "./components/Links/ProfilePage"
-import Sigin from "./components/Sigin"
+import Form from "./components/Form"
 import SingUp from "./components/SingUp"
-// ...existing imports...
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="*" element={<HomePage />} />
+      <Route path="/*" element={<HomePage />} />
       <Route path="/table" element={<TablePage />} />
       <Route path="/bill" element={<BillingPage />} />
       <Route path="/profile" element={<ProfilePage />} />
-      <Route path="/signin" element={<Sigin />} />
-      <Route path="/signup" element={<SingUp />} />
+      <Route path="/SigIn" element={<Form />} />
+      <Route path="/SigUp" element={<SingUp />} />
     </>
   )
 )
