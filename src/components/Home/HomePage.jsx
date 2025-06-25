@@ -1,4 +1,4 @@
-// 
+
 import { useState } from "react"
 import SideDashboard from "../SideDashboard"
 import DetailsDashboard from "../DetailsDashboard"
