@@ -16,7 +16,6 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route index element={<HomePage />} />
-      <Route path="/" element={<TablePage />} />
       <Route path="/table" element={<TablePage />} />
       <Route path="/bill" element={<BillingPage />} />
       <Route path="/profile" element={<ProfilePage />} />
