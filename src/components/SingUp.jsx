@@ -9,7 +9,7 @@ const SingUp = () => {
       <section
         className="relative h-[600px] md:w-[1250px] m-1 rounded-md flex flex-col "
         style={{
-          backgroundImage:` url (${background})`,
+          backgroundImage:`url(${background})`,
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}

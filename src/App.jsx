@@ -43,16 +43,18 @@ import BillingPage from "./components/Links/BillingPage";
 import ProfilePage from "./components/Links/ProfilePage";
 import Form from "./components/Form";
 import SingUp from "./components/SingUp";
+import DetailsDashoardPage from "./components/Links/DetailsDashoardPage";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       {/* <Route index element={<HomePage />} /> */}
-      <Route path="/statistics-panel" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/table" element={<TablePage />} />
       <Route path="/bill" element={<BillingPage />} />
       <Route path="/profile" element={<ProfilePage />} />
+      <Route path="/home" element={<DetailsDashoardPage />} />
       <Route path="/sigIn" element={<Form />} />
       <Route path="/sigUp" element={<SingUp />} />
     </>
@@ -64,3 +66,5 @@ const App = () => {
 };
 
 export default App;
+
+// statistics-panel

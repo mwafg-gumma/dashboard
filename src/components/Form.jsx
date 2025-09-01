@@ -1,4 +1,4 @@
-// import Back from '../assets/image/Back.png'
+import Back from '../assets/image/Back.png'
 import {FaUser,FaRoute} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 
@@ -46,23 +46,23 @@ return (
                     <p className="text-gray-500 py-3">
                         Enter your email and password to sign in
                     </p>
-                    <div className="my-2 -ml-24">
-                        <input type="text" placeholder='Email' className='border border-gray-300 py-2 px-2 rounded-md' />
+                    <div className="my-2 md:-ml-2 ">
+                        <input type="text" placeholder='Email' className='border border-gray-300 py-2 px-2 w-[300px] rounded-md  ' />
                     </div>
-                    <div className="my-2 -ml-24">
-                        <input type="password" placeholder='Password' className='border border-gray-300 py-2 px-2 rounded-md' />
+                    <div className="my-2 md:-ml-2">
+                        <input type="password" placeholder='Password' className='border border-gray-300 py-2 px-2 w-[300px] rounded-md' />
                     </div>
-                    <div className="py-1 -ml-44">
+                    <div className="py-1">
                     <NavLink className='text-light text-gray-500 hover:text-gray-600 '>
                         Remember me ?
                     </NavLink>
                     </div>
-                    <div className="py-3 -ml-20">
+                    <div className="py-3">
                         <button className='bg-sky-400 text-white hover:bg-sky-500 font-bold py-2 px-20 rounded-md'>
                             Sing In
                         </button>
                     </div>
-                    <div className="py-1 text-sm -ml-10">
+                    <div className="space-x-1">
                         Don't have an accountDon't have an account? <NavLink className="text-sky-600 text-lg"> Sing Up</NavLink>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ return (
             <div className="mx-3 relative flex items-center justify-center">
             <img
                 // src="/assets/image/back.png"
-                // src={Back}
+                src={Back}
                 alt="Sing Img"
                 className="rounded-md w-[700px] h-[450px] object-cover brightness-75"
                 style={{ backgroundColor: "white" }}
@@ -80,7 +80,7 @@ return (
                 <h2 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg text-center">
                 Welcome Back!
                 </h2>
-                <p className="text-white text-sm mx-24 p-2">
+                <p className="text-white text-sm md:mx-10 text-center p-2">
                     The more effortless the writing looks, the more effort the writer actually put into the process.
                 </p>
             </div>

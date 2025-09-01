@@ -1,33 +1,33 @@
 import { FaChartPie,FaHome, FaLaptop,FaCalendar,FaWallet,FaGlobe,FaUser,FaSignInAlt,FaUserPlus } from "react-icons/fa"
-// import Document from '../assets/image/Document.png'
 import {NavLink} from 'react-router-dom'
 const SideDashboard = () => {
 return (
     <>
-<section className="  flex-row bg-sky-400 h-[250px] md:pt-4 md:-ml-0 -ml-5 md:w-full w-[100px]  ">
-        <div className="flex flex-col items center gap-3 bg-white shadow-md rounded-xl justify-center w-[250px] py-3 md:mx-4   md:block ">
-        <div className=" mt-3 flex flex-row justify-center items-center ">
-                <FaChartPie className="text-3xl " />
-            <h3 className="text-xl font-bold px-3 ">Main Dashboard</h3>
+    
+<section className=" flex-row bg-sky-400 h-full md:pt-5 md:-ml-0 -ml-5 md:w-full w-[100px]  ">
+        <div className="flex flex-col gap-3 bg-white rounded-md justify-center w-[270px] py-3 md:mx-2 md:block ">
+        <div className=" mt-3 flex flex-row justify-center">
+                <FaChartPie className="text-3xl text-gray-700 " />
+            <h3 className="text-xl font-bold px-3 text-gray-700 mb-3">Main Dashboard</h3>
         </div>
-        <p className="border-b mx-5" ></p>
+        <p className="border-b mx-2 border-b-gray-200" ></p>
         {/* links side */}
-        <div className="my-3  cursor-pointer" title="Dashboard" >
-            <NavLink to="/" className = {({isActive}) => isActive ?"flex flex-row bg-sky-100 rounded-md py-2 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
+        <div className="my-3 cursor-pointer px-1" title="Dashboard" >
+            <NavLink to="/home" className = {({isActive}) => isActive ?"flex flex-row bg-sky-100 rounded-md py-2 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
                 <FaLaptop className="text-indigo-400 -ml-10 text-xl" /> 
-            <p className="text-lg font-normal mx-2 ">Dashboard</p>
+            <p className="text-lg font-normal mx-2">Dashboard</p>
             </NavLink>
         </div>
-        <div className=" my-3 cursor-pointer " title="Table" >
+        <div className=" my-3 cursor-pointer px-1 " title="Table" >
             <NavLink to="/table" className= {({isActive}) => isActive ?"flex flex-row bg-sky-100 rounded-md py-2 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
                 <FaCalendar className="text-orange-400 -ml-20 text-xl" />
             <p className="text-lg font-normal mx-2 ">Tables</p>
             </NavLink>
         </div>
-        <div className=" my-3  cursor-pointer" title="Billing" >
+        <div className=" my-3  cursor-pointer px-1" title="Billing" >
             <NavLink to="/bill" className= {({isActive}) => isActive ?"flex flex-row bg-sky-100 rounded-md py-2 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
                 <FaWallet className="text-green-400 -ml-20 text-xl" />
-            <p className="text-lg font-normal mx-2 ">Billing</p>
+            <p className="text-lg font-normal mx-2">Billing</p>
             </NavLink>
         </div>
         <div className=" my-3 py-2 rounded md:mx-5 ml-1 cursor-pointer" title="This Page is Not  Available" >
@@ -42,19 +42,19 @@ return (
             </h2>
             <div className="flex flex-col items-center ">
                 {/*  */}
-            <div className=" my-3 cursor-pointer" title="Profile" >
-            <NavLink to="/profile" className={({isActive}) => isActive ?"flex flex-row bg-sky-100 rounded-md py-2 px-24 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
+            <div className=" my-3 cursor-pointer px-1" title="Profile" >
+            <NavLink to="/profile" className={({isActive}) => isActive ?"flex flex-row bg-sky-100 md:w-[250px] rounded-md py-2 px-24 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
                 <FaUser className="text-gray-900 -ml-20 text-xl" />
             <p className="text-lg font-normal mx-2 ">Profile</p>
             </NavLink>
         </div>
-            <div className=" my-3 p cursor-pointer" title="Sign in" >
+            <div className=" my-3 p cursor-pointer " title="Sign in" >
             <NavLink to="/SigIn" className={({isActive}) => isActive ?"flex flex-row bg-sky-100 rounded-md py-2 px-24 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
                 <FaSignInAlt className="text-lime-400 -ml-20 text-xl" />
             <p className="text-lg font-normal mx-2 ">Sing In</p>
             </NavLink>
         </div>
-            <div className=" my-3 cursor-pointer" title="Sing Up" >
+            <div className=" my-3 cursor-pointer " title="Sing Up" >
             <NavLink to="/SigUp" className={({isActive}) => isActive ?"flex flex-row bg-sky-100 rounded-md py-2 px-24 justify-center items-center" :"flex flex-row  rounded-md py-2 justify-center items-center"}>
                 <FaUserPlus className="text-emerald-400 -ml-20 text-xl" />
             <p className="text-lg font-normal mx-2 ">Sing Up</p>
@@ -63,19 +63,18 @@ return (
         {/*  */}
             </div>
             {/* help side */}
-            <div className="my-2">
-                {/* <img src={Document} alt="Document" className="w-[100px] object-cover mx-16" /> */}
-                <div className="text-center">
-                    <h3 className="p-1 text-lg text-sky-500">Need help ?</h3>
-                    <p className="p-1">Please Check Our Docs</p>
-                </div>
-                <button className="bg-sky-500 rounded-md text-white px-6 py-1 my-2 mx-10  ">
-                        Documentation
-                    </button>
-                <button className="bg-sky-400 rounded-md text-white px-10 py-1 mx-10">
-                        Get to PRO
-                    </button>
+            <div className="mt-auto mb-4">
+            <div className="text-center">
+                <h3 className="p-1 text-lg text-sky-500">Need help ?</h3>
+                <p className="p-1">Please Check Our  Documents</p>
             </div>
+            <button className="bg-sky-400 rounded-md text-white px-6 py-2 my-2 w-[200px] mx-10">
+                Documentation
+            </button>
+            <button className="bg-sky-400 rounded-md text-white px-10 py-2 w-[200px] mx-10">
+                Get to PRO
+            </button>
+        </div>
         </div>
         {/* description side */}
 </section>
